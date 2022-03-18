@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEOC,AAAA,IAAI,AAAC,CACA,UAAU,CAAE,UAAU,CACvB,AAQD,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,OAAO,AAAC,CACP,UAAU,CAAE,OAAO,CACpB,AAKD,AAAA,CAAC,AAAC,CAEA,eAAe,CAAE,IAAI,CAGtB,AC/BL,AAAA,MAAM,AAAC,CACD,gBAAgB,CAAE,0CAA0C,CACjE",
+    "sources": [
+        "../../src/scss/main.scss",
+        "../../src/scss/abstracts/_variables.scss",
+        "../../src/scss/base/_reset.scss",
+        "../../src/scss/pages/_home.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
