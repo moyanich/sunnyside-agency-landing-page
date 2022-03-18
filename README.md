@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://moyanich.github.io/sunnyside-agency-landing-page/)
+- Solution URL: [Solution](https://github.com/moyanich/sunnyside-agency-landing-page)
+- Live Site URL: [Live site](https://moyanich.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 
@@ -100,7 +100,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
-- Github Profile - [Profile](https://github.com/moyanich/)
+- Github - [Github Profile](https://github.com/moyanich/)
 - Website - [Portfolio](http://amoycreative.com/)
 - Frontend Mentor - [@ymoyanich](https://www.frontendmentor.io/profile/moyanich)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)

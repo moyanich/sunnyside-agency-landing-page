@@ -1,11 +1,4 @@
 // Typography rules
-body {
-      font-family: $text-body-font;
-      font-size: $fs-default;
-      color: $text-color;
-      line-height: 1.5;
-      font-weight: 700;
-}     
 
 h1,
 h2,
@@ -19,7 +12,7 @@ h6 {
 
 
 h1 {
-      font-size: 5rem;
+      font-size: 4rem;
       font-family: $text-main-font;
       font-weight: $fw-700;
 }
@@ -34,4 +27,10 @@ h1 {
 
 .text-center {
       text-align: center;
+}
+
+@media (min-width: $mobile-width) {
+      h1 {
+            font-size: 2rem;
+      }
 }
