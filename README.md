@@ -49,9 +49,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Built with
 
 - Semantic HTML5 markup
+- SCSS
 - CSS custom properties
 - Flexbox
 - CSS Grid
+
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework

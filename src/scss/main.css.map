@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEIA;;GAEG;AACF,AAAA,IAAI,CAAC;EACA,UAAU,EAAE,UAAU;CACvB;;AAED;;;;;OAKG;AACH,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,UAAU,EAAE,OAAO;CACpB;;AAED;;OAEG;AACH,AAAA,CAAC,CAAC;EAEA,eAAe,EAAE,IAAI;CAGtB",
+    "sources": [
+        "main.scss",
+        "abstracts/_variables.scss",
+        "base/_reset.scss",
+        "base/_typography.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
