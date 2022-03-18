@@ -5,70 +5,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@400;700;900&display=swap');
 
 
-/// Regular font family
-/// @type List
 
+/// Container's maximum width
+$max-width: 375px;
+$mobile-width: 1440px !default;
+
+
+/// Colors
+// Primary
+
+$color-soft-red: hsl(7, 99%, 70%);
+$color-yellow: hsl(51, 100%, 49%);
+$color-dark-desaturated-cyan: hsl(167, 40%, 24%);
+$color-dark-blue: hsl(198, 62%, 26%);
+$color-dark-moderate-cyan: hsl(168, 34%, 41%);
+
+// Neutral
+
+$color-very-dark-desaturated-blue: hsl(212, 27%, 19%);
+$color-very-dark-grayish-blue: hsl(213, 9%, 39%);
+$color-dark-grayish-blue: hsl(232, 10%, 55%);
+$color-grayish-blue: hsl(210, 4%, 67%);
+$color-white: hsl(0, 0%, 100%);
+
+$text-color: #818498 !default;
+
+
+// Typography
+$fs-default: 18px;
+
+// Font
 $text-main-font: 'Fraunces', serif;
 $text-body-font: 'Barlow', sans-serif;
 
-/// Code (monospace) font family
-/// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+$fw-600: 600;
+$fw-700: 700;
+$fw-900: 900;
 
 
-
-
-
-/// Copy text color
-/// @type Color
-$text-color: rgb(34, 34, 34) !default;
-$text-color-white: #fff;
-
-/// Main brand color
-/// @type Color
-$brand-color: rgb(229, 0, 80) !default;
-
-/// Light grey
-/// @type Color
-$light-grey: rgb(237, 237, 237) !default;
-
-/// Medium grey
-/// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
-
-/// Dark grey
-/// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
-
-
-
-
-
-/// Container's maximum width
-/// @type Length
-$max-width: 1180px !default;
-
-// Text styles
-
-
-
-
-/// Breakpoints map
-/// @prop {String} keys - Keys are identifiers mapped to a given length
-/// @prop {Map} values - Values are actual breakpoints expressed in pixels
 $breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
+    'small': 320px,
+    'medium': 768px,
+    'large': 1024px,
 ) !default;
 
-
-
-
-
-
-/// Relative or absolute URL where all assets are served from
-/// @type String
-/// @example scss - When using a CDN
-///   $base-url: 'https://cdn.example.com/assets/';
-$base-url: '/assets/' !default;

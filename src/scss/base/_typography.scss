@@ -1,9 +1,27 @@
 // Typography rules
+body {
+      font-family: $text-body-font;
+      font-size: $fs-default;
+      color: $text-color;
+      line-height: 1.5;
+      font-weight: 700;
+}     
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $text-main-font;
+  font-weight: $fw-600;
+}
+
 
 h1 {
       font-size: 5rem;
       font-family: $text-main-font;
-      font-weight: 700;
+      font-weight: $fw-700;
 }
 
 .uppercase {
@@ -11,7 +29,7 @@ h1 {
 }
 
 .text-white {
-      color: $text-color-white;
+      color: $color-white;
 }
 
 .text-center {

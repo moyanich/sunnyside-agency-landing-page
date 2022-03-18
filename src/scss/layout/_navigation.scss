@@ -1,11 +1,27 @@
 .main-navigation {
       display: flex;
-      .menu {
-            float: right;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      color: $color-white;
+
+      .nav-links {
+           
             ul {
-                  
-                  display: flex;
                   list-style: none;
+                  display: flex;
+                  gap: 3rem;
+
+                  li {
+
+                        a {
+                              font-size: 18px;
+                              font-family: $text-body-font;
+                              font-weight: 600;
+                              color: $color-white;
+                        }
+                  }
+                  
             }
       }
 }

@@ -20,11 +20,41 @@ body {
   position: relative;
 }
 
-/**
-	* Basic styles for links
-*/
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 375px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  color: #818498;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
 }
 
 h1 {
@@ -38,7 +68,7 @@ h1 {
 }
 
 .text-white {
-  color: #fff;
+  color: white;
 }
 
 .text-center {
@@ -49,17 +79,29 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  color: white;
 }
 
-.main-navigation .menu {
-  float: right;
-}
-
-.main-navigation .menu ul {
+.main-navigation .nav-links ul {
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
+  gap: 3rem;
+}
+
+.main-navigation .nav-links ul li a {
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  color: white;
 }
 
 header {
