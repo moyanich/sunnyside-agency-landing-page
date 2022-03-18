@@ -1,0 +1,11 @@
+.main-navigation {
+      display: flex;
+      .menu {
+            float: right;
+            ul {
+                  
+                  display: flex;
+                  list-style: none;
+            }
+      }
+}
