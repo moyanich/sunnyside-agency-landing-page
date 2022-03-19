@@ -231,7 +231,7 @@ h1 {
 }
 
 header {
-  background-image: url("/src/images/desktop/image-header.jpg");
+  background-image: url("../../src/images/desktop/image-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -252,7 +252,7 @@ header {
 
 @media (min-width: 375px) and (max-width: 1440px) {
   header {
-    background-image: url("/src/images/mobile/image-header.jpg");
+    background-image: url("../../src/images/mobile/image-header.jpg");
   }
 }
 
