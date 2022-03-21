@@ -1,4 +1,5 @@
 function toggleMobileMenu(menu) {
-    menu.classList.toggle('open ul.mobile');
+    menu.classList.toggle('open');
+   
 }
 
