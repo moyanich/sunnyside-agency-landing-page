@@ -7,16 +7,40 @@ h4,
 h5,
 h6 {
       line-height: 1.2;
-  font-family: $text-main-font;
-  font-weight: $fw-600;
-}
+      font-family: $text-main-font;
+      font-weight: $fw-600;
+      }
 
 
 h1 {
       font-size: 4rem;
+      font-weight: $fw-700;
+}
+
+h2 {
+      font-size: 2.75rem;
+      color: $color-very-dark-desaturated-blue;
+      margin-bottom: 2rem;
+}
+
+a.link {
+      position: relative;
+      text-transform: uppercase;
       font-family: $text-main-font;
       font-weight: $fw-700;
 }
+
+a.link:before {
+      position: absolute;
+      content: '';
+      background: $color-yellow;
+      height: 8px;
+      width: 104%;
+      bottom: 0;
+      z-index: -1;
+      left: -2px;
+      right: 0;
+  }
 
 .uppercase {
       text-transform: uppercase;

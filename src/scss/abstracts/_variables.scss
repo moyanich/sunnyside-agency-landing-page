@@ -2,7 +2,7 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&family=Fraunces:wght@400;700;900&display=swap');
 
 /// Container's maximum width
 $max-width: 1440px !default;
@@ -36,6 +36,7 @@ $fs-default: 18px;
 $text-main-font: 'Fraunces', serif;
 $text-body-font: 'Barlow', sans-serif;
 
+$fw-300: 300;
 $fw-600: 600;
 $fw-700: 700;
 $fw-900: 900;

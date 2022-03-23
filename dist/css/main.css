@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&family=Fraunces:wght@400;700;900&display=swap");
 /**
  * Set up a decent box model on the root element
  */
@@ -22,7 +22,6 @@ body {
   font-size: 18px;
   color: #5a636c;
   line-height: 1.5;
-  font-weight: 700;
 }
 
 ul {
@@ -61,8 +60,32 @@ h6 {
 
 h1 {
   font-size: 4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.75rem;
+  color: #23303e;
+  margin-bottom: 2rem;
+}
+
+a.link {
+  position: relative;
+  text-transform: uppercase;
   font-family: "Fraunces", serif;
   font-weight: 700;
+}
+
+a.link:before {
+  position: absolute;
+  content: '';
+  background: #fad400;
+  height: 8px;
+  width: 104%;
+  bottom: 0;
+  z-index: -1;
+  left: -2px;
+  right: 0;
 }
 
 .uppercase {
@@ -81,6 +104,28 @@ h1 {
   h1 {
     font-size: 2.75rem;
   }
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+}
+
+.grid-2 {
+  -ms-grid-rows: 2;
+      grid-template-rows: 2;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
 .main-navigation {
@@ -292,6 +337,21 @@ button {
   border: none;
   border-radius: 50px;
   padding: 1rem 2rem;
+}
+
+.has-image {
+  width: 100%;
+}
+
+.inner-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12rem;
+}
+
+.pb-3 {
+  padding-bottom: 3rem;
 }
 
 /*

@@ -1,0 +1,14 @@
+
+.d-flex {
+	display: flex;
+	flex-direction : column;
+}
+
+.grid-container {
+	display: grid;
+}
+
+.grid-2 {
+	grid-template-rows: 2;
+	grid-template-columns: repeat(2, 1fr);
+}
