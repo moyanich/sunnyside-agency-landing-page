@@ -77,15 +77,23 @@ a.link {
 }
 
 a.link:before {
-  position: absolute;
   content: '';
-  background: #fad400;
+  position: absolute;
+  border-radius: 50px;
   height: 8px;
   width: 104%;
   bottom: 0;
   z-index: -1;
   left: -2px;
   right: 0;
+}
+
+.link-1:before {
+  background: #fad400;
+}
+
+.link-2:before {
+  background: #fe7867;
 }
 
 .uppercase {
@@ -340,7 +348,8 @@ button {
 }
 
 .has-image {
-  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .inner-section {
@@ -352,6 +361,22 @@ button {
 
 .pb-3 {
   padding-bottom: 3rem;
+}
+
+.section-1 .column-2 {
+  background-image: url("../../src/images/desktop/image-transform.jpg");
+}
+
+.section-2 .column-1 {
+  background-image: url("../../src/images/desktop/image-stand-out.jpg");
+}
+
+.section-3 .column-1 {
+  background-image: url("../../src/images/desktop/image-graphic-design.jpg");
+}
+
+.section-3 .column-2 {
+  background-image: url("../../src/images/desktop/image-photography.jpg");
 }
 
 /*

@@ -31,16 +31,24 @@ a.link {
 }
 
 a.link:before {
-      position: absolute;
       content: '';
-      background: $color-yellow;
+      position: absolute;
+      border-radius: 50px;
       height: 8px;
       width: 104%;
       bottom: 0;
       z-index: -1;
       left: -2px;
       right: 0;
-  }
+}
+
+.link-1:before {
+      background: $color-yellow;
+}
+
+.link-2:before {
+      background: $color-soft-red;
+}
 
 .uppercase {
       text-transform: uppercase;
