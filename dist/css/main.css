@@ -375,10 +375,11 @@ a.link:before {
 */
 header {
   background-image: url("../../src/images/desktop/image-header.jpg");
+  background-position: center bottom;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  height: 90vh;
+  background-color: #3dbeff;
+  height: 44.45em;
 }
 
 .heading-content {
