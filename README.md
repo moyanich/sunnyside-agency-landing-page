@@ -8,9 +8,6 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
