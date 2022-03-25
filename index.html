@@ -1,176 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-	<title>Sunnyside agency landing page</title>
-	<link rel="stylesheet" type="text/css" href="./dist/css/main.css" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+		<title>Sunnyside agency landing page</title>
+		<link rel="stylesheet" type="text/css" href="./dist/css/main.css" />
 
-	<style>
-		.attribution { font-size: 11px; text-align: center; }
-		.attribution a { color: hsl(228, 45%, 44%); }
-	</style>
-</head>
-<body>
-	<!-- Header Section -->
-	<header class="hero">
-		<div class="container">
-			<!-- Menu Navigation Bar -->
-			<div class="main-navigation">
-				<div class="logo">
-					<img src="./src/images/logo.svg" alt="sunnyside logo">
+		<style>
+			.attribution { font-size: 11px; text-align: center; }
+			.attribution a { color: hsl(228, 45%, 44%); }
+		</style>
+	</head>
+	<body>
+		<!-- Header Section -->
+		<header class="hero">
+			<div class="container">
+				<!-- Menu Navigation Bar -->
+				<div class="main-navigation">
+					<div class="logo">
+						<img src="./src/images/logo.svg" alt="sunnyside logo">
+					</div>
+					<nav class="nav-links">
+						<ul>
+							<li><a href="/">About</a></li>
+							<li><a href="/">Services</a></li>
+							<li><a href="/">Projects</a></li>
+							<li><button class="bg-white uppercase">Contact</button></li>
+						</ul>
+					</nav>
+					<div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+						<img src="./src/images/icon-hamburger.svg" alt="menu" aria-hidden="true">
+						<ul class="mobile-menu">
+							<li><a href="/">About</a></li>
+							<li><a href="/">Services</a></li>
+							<li><a href="/">Projects</a></li>
+							<li><button class="bg-yellow uppercase">Contact</button></li>
+						</ul>
+					</div>
+					
 				</div>
-				<nav class="nav-links">
-					<ul>
-						<li><a href="/">About</a></li>
-						<li><a href="/">Services</a></li>
-						<li><a href="/">Projects</a></li>
-						<li><button class="bg-white uppercase">Contact</button></li>
-					</ul>
-				</nav>
-				<div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-					<img src="./src/images/icon-hamburger.svg" alt="menu" aria-hidden="true">
-					<ul class="mobile-menu">
-						<li><a href="/">About</a></li>
-						<li><a href="/">Services</a></li>
-						<li><a href="/">Projects</a></li>
-						<li><button class="bg-yellow uppercase">Contact</button></li>
-					</ul>
-				</div>
-				
-			</div>
 
-			<div class="heading-content text-center">
-				<h1 class="heading-text uppercase text-white">We are creatives</h1>
-				<div class="arrow-down"><img src="./src/images/icon-arrow-down.svg" alt="arrow down"></div>
-			</div>
-		</div>
-	</header>
-
-	<!-- Body section -->
-	<section class="section-1 grid-container">
-		<div class="column-1 inner-section__1 inner-section-item__1">
-			<h2>Transform your brand</h2>
-			<p class="pb-3">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-			<a class="link link-1" href="#">Learn more</a>
-		</div>
-		<div class="column-2 has-image inner-section-item__2"></div>
-	</section>
-	
-	<section class="section-2 grid-container grid-2">
-		<div class="column-1 has-image inner-section-item__2"></div>
-		<div class="column-2 inner-section__1 inner-section-item__1">
-			<h2>Stand out to the right audience</h2>
-			<p class="pb-3">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-			<a class="link link-2" href="#">Learn more</a>
-		</div>
-	</section>
-
-	<section class="section-3 grid-container grid-2">
-		<div class="column-1 inner-section__2 section-item__1 has-image d-flex flex-col">
-			<h2>Graphic design</h2>
-			<p class="pb-3">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-		</div>
-		<div class="column-2 inner-section__2 section-item__2 has-image d-flex flex-col">
-			<h2>Photography</h2>
-			<p class="pb-3">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
-		</div>
-	</section>
-
-	<section class="section-4 testimonials text-center">
-
-		<h2 class="uppercase">Client testimonials</h2>
-
-		<div class="section-4-inner d-flex flex-col">
-			<div class="card">
-				<div class="card-image pb-3">
-					<img src="./src/images/image-emily.jpg">
-				</div>
-				<div class="card-content pb-3">
-					<p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-				</div>
-				<div class="card-author">
-					Emily R.
-				</div>
-				<div class="card-position">
-					Marketing Director
+				<div class="heading-content text-center">
+					<h1 class="heading-text uppercase text-white">We are creatives</h1>
+					<div class="arrow-down"><img src="./src/images/icon-arrow-down.svg" alt="arrow down"></div>
 				</div>
 			</div>
+		</header>
 
-			<div class="card">
-				<div class="card-image pb-3">
-					<img src="./src/images/image-thomas.jpg">
+		<!-- Body section -->
+		<section class="section-1 grid-container">
+			<div class="column-1 inner-section__1 inner-section-item__1">
+				<h2>Transform your brand</h2>
+				<p class="pb-3">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+				<a class="link link-1" href="#">Learn more</a>
+			</div>
+			<div class="column-2 has-image inner-section-item__2"></div>
+		</section>
+		
+		<section class="section-2 grid-container grid-2">
+			<div class="column-1 has-image inner-section-item__2"></div>
+			<div class="column-2 inner-section__1 inner-section-item__1">
+				<h2>Stand out to the right audience</h2>
+				<p class="pb-3">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+				<a class="link link-2" href="#">Learn more</a>
+			</div>
+		</section>
+
+		<section class="section-3 grid-container grid-2">
+			<div class="column-1 inner-section__2 section-item__1 has-image d-flex flex-col">
+				<h2>Graphic design</h2>
+				<p class="pb-3">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+			</div>
+			<div class="column-2 inner-section__2 section-item__2 has-image d-flex flex-col">
+				<h2>Photography</h2>
+				<p class="pb-3">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+			</div>
+		</section>
+
+		<section class="section-4 testimonials text-center">
+
+			<h2 class="uppercase">Client testimonials</h2>
+
+			<div class="section-4-inner d-flex flex-col">
+				<div class="card">
+					<div class="card-image pb-3">
+						<img src="./src/images/image-emily.jpg" alt="emily">
+					</div>
+					<div class="card-content pb-3">
+						<p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+					</div>
+					<div class="card-author">
+						Emily R.
+					</div>
+					<div class="card-position">
+						Marketing Director
+					</div>
 				</div>
-				<div class="card-content pb-3">
-					<p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+
+				<div class="card">
+					<div class="card-image pb-3">
+						<img src="./src/images/image-thomas.jpg" alt="thomas">
+					</div>
+					<div class="card-content pb-3">
+						<p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+					</div>
+					<div class="card-author">
+						Thomas S.
+					</div>
+					<div class="card-position">
+						Chief Operating Officer
+					</div>
 				</div>
-				<div class="card-author">
-					Thomas S.
-				</div>
-				<div class="card-position">
-					Chief Operating Officer
+
+				<div class="card">
+					<div class="card-image pb-3">
+						<img src="./src/images/image-jennie.jpg" alt="jennie">
+					</div>
+					<div class="card-content pb-3">
+						<p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+					</div>
+					<div class="card-author">
+						Jennie F.
+					</div>
+					<div class="card-position">
+						Business Owner
+					</div>
 				</div>
 			</div>
 
-			<div class="card">
-				<div class="card-image pb-3">
-					<img src="./src/images/image-jennie.jpg">
-				</div>
-				<div class="card-content pb-3">
-					<p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-				</div>
-				<div class="card-author">
-					Jennie F.
-				</div>
-				<div class="card-position">
-					Business Owner
-				</div>
-			</div>
-		</div>
+		</section>
 
-	</section>
-
-	<section class="section-5 gallery-container">
-		<ul class="gallery grid-container">
-			<li class="img-1"></li>
-			<li class="img-2"></li>
-			<li class="img-3"></li>
-			<li class="img-4"></li>
-		</ul>
-	</section>
-
-  	<!-- Footer Section -->
-	<footer class="d-flex flex-col">
-		<div class="logo">
-			<img src="./src/images/logo.svg" alt="sunnyside logo">
-		</div>
-	
-		<div class="footer-nav">
-			<ul class="d-flex">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Projects</a></li>
+		<section class="section-5 gallery-container">
+			<ul class="gallery grid-container">
+				<li class="img-1"></li>
+				<li class="img-2"></li>
+				<li class="img-3"></li>
+				<li class="img-4"></li>
 			</ul>
-		</div>
-		<div class="social-nav">
-			<ul class="d-flex">
-				<li><a href="#"><img src="./src/images/icon-facebook.svg" alt="facebook"></a></li>
-				<li><a href="#"><img src="./src/images/icon-instagram.svg" alt="facebook"></a></li>
-				<li><a href="#"><img src="./src/images/icon-twitter.svg" alt="facebook"></a></li>
-				<li><a href="#"><img src="./src/images/icon-pinterest.svg" alt="facebook"></a></li>
-			</ul>
-		</div>
-	</footer>
+		</section>
 
-	<div class="attribution">
-		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-		Coded by <a href="#">Your Name Here</a>.
-	</div>
+		<!-- Footer Section -->
+		<footer class="d-flex flex-col">
+			<div class="logo">
+				<img src="./src/images/logo.svg" alt="sunnyside logo">
+			</div>
+		
+			<div class="footer-nav">
+				<ul class="d-flex">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Projects</a></li>
+				</ul>
+			</div>
+			<div class="social-nav">
+				<ul class="d-flex">
+					<li><a href="#"><img src="./src/images/icon-facebook.svg" alt="facebook"></a></li>
+					<li><a href="#"><img src="./src/images/icon-instagram.svg" alt="facebook"></a></li>
+					<li><a href="#"><img src="./src/images/icon-twitter.svg" alt="facebook"></a></li>
+					<li><a href="#"><img src="./src/images/icon-pinterest.svg" alt="facebook"></a></li>
+				</ul>
+			</div>
+		</footer>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script type="text/javascript" src="/src/js/main.js"></script>
-</body>
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+			Coded by <a href="#">Your Name Here</a>.
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="/src/js/main.js"></script>
+	</body>
 </html>
 
