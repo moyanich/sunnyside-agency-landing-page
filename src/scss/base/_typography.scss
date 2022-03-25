@@ -66,6 +66,9 @@ a.link:before {
       color: $color-grayish-blue;
 }
 
+.uppercase {
+      text-transform: uppercase;
+}
 
 @media (min-width: $mobile-width) and (max-width: $max-width) {
       h1 {
@@ -73,6 +76,9 @@ a.link:before {
       }
 
       h2 {
-            font-size: 1.875rem;
+            font-size: 1.275rem;
+      }
+      .testimonials h2 {
+            letter-spacing: 3.2px;
       }
 }

@@ -27,6 +27,8 @@ body {
 
 ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 a {
@@ -47,3 +49,8 @@ a {
 .bg-yellow {
 	background-color: $color-yellow;
 }
+
+.pb-3 {
+      padding-bottom: 3rem;
+}
+
