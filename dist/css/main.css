@@ -37,7 +37,6 @@ a {
 
 .container {
   max-width: 1440px;
-  padding: 2rem 0;
   margin: 0 auto;
 }
 
@@ -379,7 +378,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  min-height: 100vh;
+  height: 90vh;
 }
 
 .heading-content {

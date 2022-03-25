@@ -20,9 +20,9 @@ html {
 body {
 	position: relative;
 	font-family: $text-body-font;
-      font-size: $fs-default;
-      color: $text-color;
-      line-height: 1.5;
+	font-size: $fs-default;
+	color: $text-color;
+	line-height: 1.5;
 }
 
 ul {
@@ -38,7 +38,6 @@ a {
 
 .container {
 	max-width: $max-width;
-	padding: 2rem 0;
 	margin: 0 auto;
 }
 
@@ -51,6 +50,6 @@ a {
 }
 
 .pb-3 {
-      padding-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
